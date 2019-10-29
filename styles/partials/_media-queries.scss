@@ -5,11 +5,49 @@
     
     h2 { 
         font-size: 6rem;
-        line-height: 4.5rem;
+        line-height: 4rem;
     }
 
     .left-margin,
     .right-margin {
+        width: 45%;
+    }
+
+    .left-margin {
         padding-top: 60px;
+        margin-left: 5%;
     }    
+
+    .right-margin {
+        padding-top: 80px;
+        margin-right: 5%;
+    }
+
+    .content p {
+        margin-bottom: 0;
+    }
+
+    .new-products {
+        img {
+            width: 35%;
+        }
+
+        div {
+            float: left;
+            width: calc(65% - 40px);
+            margin-left: 40px;
+        }
+    }
+
+    footer input[type="email"] {
+        width: 60%;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1250px) {
+    
 }
