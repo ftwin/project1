@@ -24,16 +24,8 @@
         margin-bottom: 0;
     }
 
-    .new-products {
-        img {
-            width: 35%;
-        }
-
-        div {
-            width: calc(65% - 40px);
-            margin-left: 40px;
-        }
-    }
+        
+    
 
     footer input[type="email"] {
         width: 60%;
@@ -45,6 +37,18 @@
 }
 
 @media (max-width: 1250px) {
+
+    .new-products {
+        img {
+            width: 35%;
+        }
+
+        div {
+            width: calc(65% - 40px);
+            margin-left: 40px;
+        }
+    }
+
     .left-margin {
         padding-top: 50px;
         padding-right: 50px;
@@ -64,53 +68,81 @@
     footer a {
         font-size: 1.6rem;
     }
+    
+    .content h2 {
+        padding-bottom: 20px;
+    }
 
     .hero {
         height: 80vh;
     }
 
     .new-products {
-        img {
-            width: 45%;
-        }
-
-        div {
-            width: calc(55% - 40px);
-            margin-left: 40px;
-        }
-
+    
         h2 {
             line-height: 4.5rem;
             margin-bottom: 1rem;
         }
     }
 
-    footer nav {
-        width: 15%;
-    }
+    footer {
+        padding-top: 60px;
+
+            nav {
+                width: 15%;
+            }
+        }
 
     .email {
-        width: 60%;
+        width: 55%;
     }
 
     .contact {
-        width: 25%;
+        width: 30%;
     }
+
+    .left-margin,
+    .right-margin {
+        width: 100%;
+        margin: 0;
+        padding: 80px;
+    }
+
+    .full-bleed-section {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .social {
+        padding: 30px 20px;
+    }
+
+    
 }
 
-@media (max-width: 1005px) {
-}
-
-@media (max-width: 600px) {
+@media (max-width: 960px) {
     .new-products {
         img {
-            width: 100%;
-            clear: both;
+            width: 30%;
+            margin-top: 40px;
         }
 
         div {
-            width: 100%;
-            margin-left: 0;
+            width: calc(70% - 40px);
+            margin-left: 40px;
         }
+    }
+
+    footer nav {
+                width: 15%;
+            }
+
+    .email {
+        width: 55%;
+    }
+
+    .contact {
+        width: 30
     }
 }

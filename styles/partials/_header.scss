@@ -8,6 +8,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 90vh;
+    position: relative;
 }
 
 .main-nav {
@@ -26,17 +27,13 @@ h1 {
 
 .social {
     text-align: right;
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    padding: 40px 30px;
 
     i {
         color: #fff;
-    }
-
-    ul {
-        position: absolute;
-        right: 0;
-        bottom: 0px;
-        padding: 0 40px;
     }
 
     li {
