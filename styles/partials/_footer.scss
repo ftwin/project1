@@ -1,0 +1,95 @@
+
+footer {
+    background: $primary;
+    padding-top: 100px;
+    position: relative;
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        label,
+        input {
+            font-size: 2rem;
+            // line-height: 2.9rem;
+            border: none;
+            padding: 5px 25px;
+            vertical-align: bottom;
+        }
+
+        input[type=submit] {
+            background-color: #0178A5;
+            border-color: #0178A5;
+        }
+
+        input[type=email] {
+            line-height: 37px;
+            width: 68%;
+        }
+
+        .wrapper {
+            padding-bottom: 60px;
+        }
+}
+
+footer nav,
+.email,
+.contact {
+    float: left;
+    // background: pink;
+    li {
+        list-style: none;
+    }
+
+    a {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 2.9rem;
+        letter-spacing: 0.02rem;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+footer nav {
+    width: 20%;
+}
+
+.email {
+    width: 50%;
+    text-align: center;
+    
+    a {
+        padding: 10px;
+    }
+
+}
+
+.contact {
+    text-align: right;
+    width: 30%;
+
+    h3 {
+        text-align: right;
+        margin-bottom: 0;
+        font-size: 4.5rem;
+    }
+
+    
+    p {
+            margin: 0;
+        }
+}
+
+.copyright {
+    text-align: center;
+    clear: both;
+    background: #201E21;
+    color: #fff;
+    p {
+        line-height: 5rem;
+        margin-bottom: 0;
+    }
+}
