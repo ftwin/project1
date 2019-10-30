@@ -17,19 +17,19 @@ footer {
             vertical-align: bottom;
         }
 
-        input[type=submit] {
-            background-color: #0178A5;
-            border-color: #0178A5;
-        }
-
-        input[type=email] {
-            line-height: 37px;
-            width: 68%;
-        }
-
         .wrapper {
             padding-bottom: 60px;
         }
+}
+
+input[type=submit] {
+            background-color: #0178A5;
+            border-color: #0178A5;
+    }
+
+input[type=email] {
+    line-height: 37px;
+    width: 68%;
 }
 
 footer nav,

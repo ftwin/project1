@@ -6,12 +6,12 @@
         margin-bottom: 2.5rem;
     }
 
-    img {
+    .product-image {
         float: left;
         width: 29%;
     }
 
-    div {
+    .prod-content {
         float: left;
         width: calc(71% - 50px);
         margin-left: 50px;
@@ -68,7 +68,7 @@
         float: left;
         width: calc((100% / 3)); 
         text-align: center;
-        padding: 60px 60px 80px 60px;
+        padding: 60px 0 80px 0;
     }
 
     i {

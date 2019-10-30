@@ -27,7 +27,7 @@
         
     
 
-    footer input[type="email"] {
+    input[type="email"] {
         width: 60%;
     }
 
@@ -39,11 +39,11 @@
 @media (max-width: 1250px) {
 
     .new-products {
-        img {
+        .product-image {
             width: 35%;
         }
 
-        div {
+        .prod-content {
             width: calc(65% - 40px);
             margin-left: 40px;
         }
@@ -123,26 +123,124 @@
 
 @media (max-width: 960px) {
     .new-products {
-        img {
+        .product-image {
             width: 30%;
             margin-top: 40px;
         }
 
-        div {
+        .prod-content {
             width: calc(70% - 40px);
             margin-left: 40px;
         }
     }
 
-    footer nav {
-                width: 15%;
-            }
+    footer nav,
+    .email,
+    .contact {
+        a, p {
+           font-size: 2rem; 
+        }
+        
+        width: 100%;
+        text-align: center;
 
-    .email {
-        width: 55%;
+        h3{
+            text-align: center;
+        }
+
+        margin-bottom: 30px;
     }
 
-    .contact {
-        width: 30
+    footer nav li {
+        display: inline-block;
+        width: 20%;
+        margin-bottom: 40px;
+
+    }
+
+
+}
+
+@media (max-width: 850px) {
+    .new-products {
+        .product-image,
+        .prod-content {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .product-image {
+        max-width: 316px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        }  
+    } 
+}
+
+@media (max-width: 750px) {
+    .new-products {
+        .product-image {
+            float: none;
+        }
+    }
+
+    .middle-nav {
+        padding: 20px 0;
+            li {
+            width: 100%;
+            padding: 20px;
+            }
+    }
+
+    .full-bleed-section {
+        height: 50%;
+    }
+
+    p.read-more {
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    input[type=email] {
+        text-align: center;
+        width: 80%;
+        margin: 20px 0;
+        clear: both;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        width: 60%;
+        line-height: 7rem;
+    }
+    .wrapper {
+        width: 90%;
+    }
+
+    .exhibits {
+        padding: 80px 0;
+    }
+    .exhibits li {
+        width: calc(100% / 2 - 21px);
+    }
+
+    .exhibits li:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .exhibits li:nth-of-type(3) {
+        display: none;
+    }
+
+    footer .wrapper {
+        padding: 10px 0;
     }
 }
+
+@media (max-width: 500px) {
