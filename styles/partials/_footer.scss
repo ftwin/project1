@@ -8,18 +8,17 @@ footer {
             margin-bottom: 20px;
         }
 
-        label,
-        input {
-            font-size: 2rem;
-            // line-height: 2.9rem;
-            border: none;
-            padding: 5px 25px;
-            vertical-align: bottom;
-        }
-
         .wrapper {
             padding-bottom: 60px;
         }
+}
+
+label,
+input {
+    font-size: 2rem;
+    border: none;
+    padding: 5px 25px;
+    vertical-align: bottom;
 }
 
 input[type=submit] {
@@ -51,6 +50,10 @@ footer nav,
     p {
         margin-bottom: 10px;
     }
+}
+
+.contact a {
+    font-weight: normal;
 }
 
 footer nav {
